@@ -1,0 +1,22 @@
+// AI.java
+import java.io.*;
+import java.util.*;
+import java.lang.*;
+class AI{
+	public static void main( String[] args ){
+		Scanner sc = new Scanner(System.in);
+		
+		String sent_1, mood_1, sent_2, sent_3;
+		
+		System.out.println("Hello, I am JARVIS.");
+		System.out.println("What would you like to ask me today?");
+		
+		sent_1 = sc.nextLine();
+		mood_1 = sc.nextLine();
+		
+		if (mood_1 == "!!!");
+		System.out.println("poop");
+		
+		
+	}
+}
